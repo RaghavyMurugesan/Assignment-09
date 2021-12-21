@@ -16,258 +16,1012 @@ request.onload = function () {
   //console.log(data);
 
   data.forEach((data) => {
-    console.log(data.name,data.capital, data.flag);
+    console.log(`
+    Name:${data.name}, 
+    Capital:${data.capital},
+    FlagLink:${data.flag}` );
   });
 };
 
+
 //____OUTPUT________
-Afghanistan Kabul https://restcountries.eu/data/afg.svg
-Åland Islands Mariehamn https://restcountries.eu/data/ala.svg
-Albania Tirana https://restcountries.eu/data/alb.svg
-Algeria Algiers https://restcountries.eu/data/dza.svg
-American Samoa Pago Pago https://restcountries.eu/data/asm.svg
-Andorra Andorra la Vella https://restcountries.eu/data/and.svg
-Angola Luanda https://restcountries.eu/data/ago.svg
-Anguilla The Valley https://restcountries.eu/data/aia.svg
-Antarctica  https://restcountries.eu/data/ata.svg
-Antigua and Barbuda Saint John's https://restcountries.eu/data/atg.svg
-Argentina Buenos Aires https://restcountries.eu/data/arg.svg
-Armenia Yerevan https://restcountries.eu/data/arm.svg
-Aruba Oranjestad https://restcountries.eu/data/abw.svg
-Australia Canberra https://restcountries.eu/data/aus.svg
-Austria Vienna https://restcountries.eu/data/aut.svg
-Azerbaijan Baku https://restcountries.eu/data/aze.svg
-Bahamas Nassau https://restcountries.eu/data/bhs.svg
-Bahrain Manama https://restcountries.eu/data/bhr.svg
-Bangladesh Dhaka https://restcountries.eu/data/bgd.svg
-Barbados Bridgetown https://restcountries.eu/data/brb.svg
-Belarus Minsk https://restcountries.eu/data/blr.svg
-Belgium Brussels https://restcountries.eu/data/bel.svg
-Belize Belmopan https://restcountries.eu/data/blz.svg
-Benin Porto-Novo https://restcountries.eu/data/ben.svg
-Bermuda Hamilton https://restcountries.eu/data/bmu.svg
-Bhutan Thimphu https://restcountries.eu/data/btn.svg
-Bolivia (Plurinational State of) Sucre https://restcountries.eu/data/bol.svg
-Bonaire, Sint Eustatius and Saba Kralendijk https://restcountries.eu/data/bes.svg
-Bosnia and Herzegovina Sarajevo https://restcountries.eu/data/bih.svg
-Botswana Gaborone https://restcountries.eu/data/bwa.svg
-Bouvet Island  https://restcountries.eu/data/bvt.svg
-Brazil Brasília https://restcountries.eu/data/bra.svg
-British Indian Ocean Territory Diego Garcia https://restcountries.eu/data/iot.svg
-United States Minor Outlying Islands  https://restcountries.eu/data/umi.svg
-Virgin Islands (British) Road Town https://restcountries.eu/data/vgb.svg
-Virgin Islands (U.S.) Charlotte Amalie https://restcountries.eu/data/vir.svg
-Brunei Darussalam Bandar Seri Begawan https://restcountries.eu/data/brn.svg
-Bulgaria Sofia https://restcountries.eu/data/bgr.svg
-Burkina Faso Ouagadougou https://restcountries.eu/data/bfa.svg
-Burundi Bujumbura https://restcountries.eu/data/bdi.svg
-Cambodia Phnom Penh https://restcountries.eu/data/khm.svg
-Cameroon Yaoundé https://restcountries.eu/data/cmr.svg
-Canada Ottawa https://restcountries.eu/data/can.svg
-Cabo Verde Praia https://restcountries.eu/data/cpv.svg
-Cayman Islands George Town https://restcountries.eu/data/cym.svg
-Central African Republic Bangui https://restcountries.eu/data/caf.svg
-Chad N'Djamena https://restcountries.eu/data/tcd.svg
-Chile Santiago https://restcountries.eu/data/chl.svg
-China Beijing https://restcountries.eu/data/chn.svg
-Christmas Island Flying Fish Cove https://restcountries.eu/data/cxr.svg
-Cocos (Keeling) Islands West Island https://restcountries.eu/data/cck.svg
-Colombia Bogotá https://restcountries.eu/data/col.svg
-Comoros Moroni https://restcountries.eu/data/com.svg
-Congo Brazzaville https://restcountries.eu/data/cog.svg
-Congo (Democratic Republic of the) Kinshasa https://restcountries.eu/data/cod.svg
-Cook Islands Avarua https://restcountries.eu/data/cok.svg
-Costa Rica San José https://restcountries.eu/data/cri.svg
-Croatia Zagreb https://restcountries.eu/data/hrv.svg
-Cuba Havana https://restcountries.eu/data/cub.svg
-Curaçao Willemstad https://restcountries.eu/data/cuw.svg
-Cyprus Nicosia https://restcountries.eu/data/cyp.svg
-Czech Republic Prague https://restcountries.eu/data/cze.svg
-Denmark Copenhagen https://restcountries.eu/data/dnk.svg
-Djibouti Djibouti https://restcountries.eu/data/dji.svg
-Dominica Roseau https://restcountries.eu/data/dma.svg
-Dominican Republic Santo Domingo https://restcountries.eu/data/dom.svg
-Ecuador Quito https://restcountries.eu/data/ecu.svg
-Egypt Cairo https://restcountries.eu/data/egy.svg
-El Salvador San Salvador https://restcountries.eu/data/slv.svg
-Equatorial Guinea Malabo https://restcountries.eu/data/gnq.svg
-Eritrea Asmara https://restcountries.eu/data/eri.svg
-Estonia Tallinn https://restcountries.eu/data/est.svg
-Ethiopia Addis Ababa https://restcountries.eu/data/eth.svg
-Falkland Islands (Malvinas) Stanley https://restcountries.eu/data/flk.svg
-Faroe Islands Tórshavn https://restcountries.eu/data/fro.svg
-Fiji Suva https://restcountries.eu/data/fji.svg
-Finland Helsinki https://restcountries.eu/data/fin.svg
-France Paris https://restcountries.eu/data/fra.svg
-French Guiana Cayenne https://restcountries.eu/data/guf.svg
-French Polynesia Papeetē https://restcountries.eu/data/pyf.svg
-French Southern Territories Port-aux-Français https://restcountries.eu/data/atf.svg
-Gabon Libreville https://restcountries.eu/data/gab.svg
-Gambia Banjul https://restcountries.eu/data/gmb.svg
-Georgia Tbilisi https://restcountries.eu/data/geo.svg
-Germany Berlin https://restcountries.eu/data/deu.svg
-Ghana Accra https://restcountries.eu/data/gha.svg
-Gibraltar Gibraltar https://restcountries.eu/data/gib.svg
-Greece Athens https://restcountries.eu/data/grc.svg
-Greenland Nuuk https://restcountries.eu/data/grl.svg
-Grenada St. George's https://restcountries.eu/data/grd.svg
-Guadeloupe Basse-Terre https://restcountries.eu/data/glp.svg
-Guam Hagåtña https://restcountries.eu/data/gum.svg
-Guatemala Guatemala City https://restcountries.eu/data/gtm.svg
-Guernsey St. Peter Port https://restcountries.eu/data/ggy.svg
-Guinea Conakry https://restcountries.eu/data/gin.svg
-Guinea-Bissau Bissau https://restcountries.eu/data/gnb.svg
-Guyana Georgetown https://restcountries.eu/data/guy.svg
-Haiti Port-au-Prince https://restcountries.eu/data/hti.svg
-Heard Island and McDonald Islands  https://restcountries.eu/data/hmd.svg
-Holy See Rome https://restcountries.eu/data/vat.svg
-Honduras Tegucigalpa https://restcountries.eu/data/hnd.svg
-Hong Kong City of Victoria https://restcountries.eu/data/hkg.svg
-Hungary Budapest https://restcountries.eu/data/hun.svg
-Iceland Reykjavík https://restcountries.eu/data/isl.svg
-India New Delhi https://restcountries.eu/data/ind.svg
-Indonesia Jakarta https://restcountries.eu/data/idn.svg
-Côte d'Ivoire Yamoussoukro https://restcountries.eu/data/civ.svg
-Iran (Islamic Republic of) Tehran https://restcountries.eu/data/irn.svg
-Iraq Baghdad https://restcountries.eu/data/irq.svg
-Ireland Dublin https://restcountries.eu/data/irl.svg
-Isle of Man Douglas https://restcountries.eu/data/imn.svg
-Israel Jerusalem https://restcountries.eu/data/isr.svg
-Italy Rome https://restcountries.eu/data/ita.svg
-Jamaica Kingston https://restcountries.eu/data/jam.svg
-Japan Tokyo https://restcountries.eu/data/jpn.svg
-Jersey Saint Helier https://restcountries.eu/data/jey.svg
-Jordan Amman https://restcountries.eu/data/jor.svg
-Kazakhstan Astana https://restcountries.eu/data/kaz.svg
-Kenya Nairobi https://restcountries.eu/data/ken.svg
-Kiribati South Tarawa https://restcountries.eu/data/kir.svg
-Kuwait Kuwait City https://restcountries.eu/data/kwt.svg
-Kyrgyzstan Bishkek https://restcountries.eu/data/kgz.svg
-Lao People's Democratic Republic Vientiane https://restcountries.eu/data/lao.svg
-Latvia Riga https://restcountries.eu/data/lva.svg
-Lebanon Beirut https://restcountries.eu/data/lbn.svg
-Lesotho Maseru https://restcountries.eu/data/lso.svg
-Liberia Monrovia https://restcountries.eu/data/lbr.svg
-Libya Tripoli https://restcountries.eu/data/lby.svg
-Liechtenstein Vaduz https://restcountries.eu/data/lie.svg
-Lithuania Vilnius https://restcountries.eu/data/ltu.svg
-Luxembourg Luxembourg https://restcountries.eu/data/lux.svg
-Macao  https://restcountries.eu/data/mac.svg
-Macedonia (the former Yugoslav Republic of) Skopje https://restcountries.eu/data/mkd.svg
-Madagascar Antananarivo https://restcountries.eu/data/mdg.svg
-Malawi Lilongwe https://restcountries.eu/data/mwi.svg
-Malaysia Kuala Lumpur https://restcountries.eu/data/mys.svg
-Maldives Malé https://restcountries.eu/data/mdv.svg
-Mali Bamako https://restcountries.eu/data/mli.svg
-Malta Valletta https://restcountries.eu/data/mlt.svg
-Marshall Islands Majuro https://restcountries.eu/data/mhl.svg
-Martinique Fort-de-France https://restcountries.eu/data/mtq.svg
-Mauritania Nouakchott https://restcountries.eu/data/mrt.svg
-Mauritius Port Louis https://restcountries.eu/data/mus.svg
-Mayotte Mamoudzou https://restcountries.eu/data/myt.svg
-Mexico Mexico City https://restcountries.eu/data/mex.svg
-Micronesia (Federated States of) Palikir https://restcountries.eu/data/fsm.svg
-Moldova (Republic of) Chișinău https://restcountries.eu/data/mda.svg
-Monaco Monaco https://restcountries.eu/data/mco.svg
-Mongolia Ulan Bator https://restcountries.eu/data/mng.svg
-Montenegro Podgorica https://restcountries.eu/data/mne.svg
-Montserrat Plymouth https://restcountries.eu/data/msr.svg
-Morocco Rabat https://restcountries.eu/data/mar.svg
-Mozambique Maputo https://restcountries.eu/data/moz.svg
-Myanmar Naypyidaw https://restcountries.eu/data/mmr.svg
-Namibia Windhoek https://restcountries.eu/data/nam.svg
-Nauru Yaren https://restcountries.eu/data/nru.svg
-Nepal Kathmandu https://restcountries.eu/data/npl.svg
-Netherlands Amsterdam https://restcountries.eu/data/nld.svg
-New Caledonia Nouméa https://restcountries.eu/data/ncl.svg
-New Zealand Wellington https://restcountries.eu/data/nzl.svg
-Nicaragua Managua https://restcountries.eu/data/nic.svg
-Niger Niamey https://restcountries.eu/data/ner.svg
-Nigeria Abuja https://restcountries.eu/data/nga.svg
-Niue Alofi https://restcountries.eu/data/niu.svg
-Norfolk Island Kingston https://restcountries.eu/data/nfk.svg
-Korea (Democratic People's Republic of) Pyongyang https://restcountries.eu/data/prk.svg
-Northern Mariana Islands Saipan https://restcountries.eu/data/mnp.svg
-Norway Oslo https://restcountries.eu/data/nor.svg
-Oman Muscat https://restcountries.eu/data/omn.svg
-Pakistan Islamabad https://restcountries.eu/data/pak.svg
-Palau Ngerulmud https://restcountries.eu/data/plw.svg
-Palestine, State of Ramallah https://restcountries.eu/data/pse.svg
-Panama Panama City https://restcountries.eu/data/pan.svg
-Papua New Guinea Port Moresby https://restcountries.eu/data/png.svg
-Paraguay Asunción https://restcountries.eu/data/pry.svg
-Peru Lima https://restcountries.eu/data/per.svg
-Philippines Manila https://restcountries.eu/data/phl.svg
-Pitcairn Adamstown https://restcountries.eu/data/pcn.svg
-Poland Warsaw https://restcountries.eu/data/pol.svg
-Portugal Lisbon https://restcountries.eu/data/prt.svg
-Puerto Rico San Juan https://restcountries.eu/data/pri.svg
-Qatar Doha https://restcountries.eu/data/qat.svg
-Republic of Kosovo Pristina https://restcountries.eu/data/kos.svg
-Réunion Saint-Denis https://restcountries.eu/data/reu.svg
-Romania Bucharest https://restcountries.eu/data/rou.svg
-Russian Federation Moscow https://restcountries.eu/data/rus.svg
-Rwanda Kigali https://restcountries.eu/data/rwa.svg
-Saint Barthélemy Gustavia https://restcountries.eu/data/blm.svg
-Saint Helena, Ascension and Tristan da Cunha Jamestown https://restcountries.eu/data/shn.svg
-Saint Kitts and Nevis Basseterre https://restcountries.eu/data/kna.svg
-Saint Lucia Castries https://restcountries.eu/data/lca.svg
-Saint Martin (French part) Marigot https://restcountries.eu/data/maf.svg
-Saint Pierre and Miquelon Saint-Pierre https://restcountries.eu/data/spm.svg
-Saint Vincent and the Grenadines Kingstown https://restcountries.eu/data/vct.svg
-Samoa Apia https://restcountries.eu/data/wsm.svg
-San Marino City of San Marino https://restcountries.eu/data/smr.svg
-Sao Tome and Principe São Tomé https://restcountries.eu/data/stp.svg
-Saudi Arabia Riyadh https://restcountries.eu/data/sau.svg
-Senegal Dakar https://restcountries.eu/data/sen.svg
-Serbia Belgrade https://restcountries.eu/data/srb.svg
-Seychelles Victoria https://restcountries.eu/data/syc.svg
-Sierra Leone Freetown https://restcountries.eu/data/sle.svg
-Singapore Singapore https://restcountries.eu/data/sgp.svg
-Sint Maarten (Dutch part) Philipsburg https://restcountries.eu/data/sxm.svg
-Slovakia Bratislava https://restcountries.eu/data/svk.svg
-Slovenia Ljubljana https://restcountries.eu/data/svn.svg
-Solomon Islands Honiara https://restcountries.eu/data/slb.svg
-Somalia Mogadishu https://restcountries.eu/data/som.svg
-South Africa Pretoria https://restcountries.eu/data/zaf.svg
-South Georgia and the South Sandwich Islands King Edward Point https://restcountries.eu/data/sgs.svg
-Korea (Republic of) Seoul https://restcountries.eu/data/kor.svg
-South Sudan Juba https://restcountries.eu/data/ssd.svg
-Spain Madrid https://restcountries.eu/data/esp.svg
-Sri Lanka Colombo https://restcountries.eu/data/lka.svg
-Sudan Khartoum https://restcountries.eu/data/sdn.svg
-Suriname Paramaribo https://restcountries.eu/data/sur.svg
-Svalbard and Jan Mayen Longyearbyen https://restcountries.eu/data/sjm.svg
-Swaziland Lobamba https://restcountries.eu/data/swz.svg
-Sweden Stockholm https://restcountries.eu/data/swe.svg
-Switzerland Bern https://restcountries.eu/data/che.svg
-Syrian Arab Republic Damascus https://restcountries.eu/data/syr.svg
-Taiwan Taipei https://restcountries.eu/data/twn.svg
-Tajikistan Dushanbe https://restcountries.eu/data/tjk.svg
-Tanzania, United Republic of Dodoma https://restcountries.eu/data/tza.svg
-Thailand Bangkok https://restcountries.eu/data/tha.svg
-Timor-Leste Dili https://restcountries.eu/data/tls.svg
-Togo Lomé https://restcountries.eu/data/tgo.svg
-Tokelau Fakaofo https://restcountries.eu/data/tkl.svg
-Tonga Nuku'alofa https://restcountries.eu/data/ton.svg
-Trinidad and Tobago Port of Spain https://restcountries.eu/data/tto.svg
-Tunisia Tunis https://restcountries.eu/data/tun.svg
-Turkey Ankara https://restcountries.eu/data/tur.svg
-Turkmenistan Ashgabat https://restcountries.eu/data/tkm.svg
-Turks and Caicos Islands Cockburn Town https://restcountries.eu/data/tca.svg
-Tuvalu Funafuti https://restcountries.eu/data/tuv.svg
-Uganda Kampala https://restcountries.eu/data/uga.svg
-Ukraine Kiev https://restcountries.eu/data/ukr.svg
-United Arab Emirates Abu Dhabi https://restcountries.eu/data/are.svg
-United Kingdom of Great Britain and Northern Ireland London https://restcountries.eu/data/gbr.svg
-United States of America Washington, D.C. https://restcountries.eu/data/usa.svg
-Uruguay Montevideo https://restcountries.eu/data/ury.svg
-Uzbekistan Tashkent https://restcountries.eu/data/uzb.svg
-Vanuatu Port Vila https://restcountries.eu/data/vut.svg
-Venezuela (Bolivarian Republic of) Caracas https://restcountries.eu/data/ven.svg
-Viet Nam Hanoi https://restcountries.eu/data/vnm.svg
-Wallis and Futuna Mata-Utu https://restcountries.eu/data/wlf.svg
-Western Sahara El Aaiún https://restcountries.eu/data/esh.svg
-Yemen Sana'a https://restcountries.eu/data/yem.svg
-Zambia Lusaka https://restcountries.eu/data/zmb.svg
-Zimbabwe Harare https://restcountries.eu/data/zwe.svg
+
+Name:Afghanistan, 
+    Capital:Kabul,
+    FlagLink:https://restcountries.eu/data/afg.svg
+
+    Name:Åland Islands, 
+    Capital:Mariehamn,
+    FlagLink:https://restcountries.eu/data/ala.svg
+
+    Name:Albania, 
+    Capital:Tirana,
+    FlagLink:https://restcountries.eu/data/alb.svg
+
+    Name:Algeria, 
+    Capital:Algiers,
+    FlagLink:https://restcountries.eu/data/dza.svg
+
+    Name:American Samoa, 
+    Capital:Pago Pago,
+    FlagLink:https://restcountries.eu/data/asm.svg
+
+    Name:Andorra, 
+    Capital:Andorra la Vella,
+    FlagLink:https://restcountries.eu/data/and.svg
+
+    Name:Angola, 
+    Capital:Luanda,
+    FlagLink:https://restcountries.eu/data/ago.svg
+
+    Name:Anguilla, 
+    Capital:The Valley,
+    FlagLink:https://restcountries.eu/data/aia.svg
+
+    Name:Antarctica, 
+    Capital:,
+    FlagLink:https://restcountries.eu/data/ata.svg
+
+    Name:Antigua and Barbuda, 
+    Capital:Saint John's,
+    FlagLink:https://restcountries.eu/data/atg.svg
+
+    Name:Argentina, 
+    Capital:Buenos Aires,
+    FlagLink:https://restcountries.eu/data/arg.svg
+
+    Name:Armenia, 
+    Capital:Yerevan,
+    FlagLink:https://restcountries.eu/data/arm.svg
+
+    Name:Aruba, 
+    Capital:Oranjestad,
+    FlagLink:https://restcountries.eu/data/abw.svg
+
+    Name:Australia, 
+    Capital:Canberra,
+    FlagLink:https://restcountries.eu/data/aus.svg
+
+    Name:Austria, 
+    Capital:Vienna,
+    FlagLink:https://restcountries.eu/data/aut.svg
+
+    Name:Azerbaijan, 
+    Capital:Baku,
+    FlagLink:https://restcountries.eu/data/aze.svg
+
+    Name:Bahamas, 
+    Capital:Nassau,
+    FlagLink:https://restcountries.eu/data/bhs.svg
+
+    Name:Bahrain, 
+    Capital:Manama,
+    FlagLink:https://restcountries.eu/data/bhr.svg
+
+    Name:Bangladesh, 
+    Capital:Dhaka,
+    FlagLink:https://restcountries.eu/data/bgd.svg
+
+    Name:Barbados, 
+    Capital:Bridgetown,
+    FlagLink:https://restcountries.eu/data/brb.svg
+
+    Name:Belarus, 
+    Capital:Minsk,
+    FlagLink:https://restcountries.eu/data/blr.svg
+
+    Name:Belgium, 
+    Capital:Brussels,
+    FlagLink:https://restcountries.eu/data/bel.svg
+
+    Name:Belize, 
+    Capital:Belmopan,
+    FlagLink:https://restcountries.eu/data/blz.svg
+
+    Name:Benin, 
+    Capital:Porto-Novo,
+    FlagLink:https://restcountries.eu/data/ben.svg
+
+    Name:Bermuda, 
+    Capital:Hamilton,
+    FlagLink:https://restcountries.eu/data/bmu.svg
+
+    Name:Bhutan, 
+    Capital:Thimphu,
+    FlagLink:https://restcountries.eu/data/btn.svg
+
+    Name:Bolivia (Plurinational State of), 
+    Capital:Sucre,
+    FlagLink:https://restcountries.eu/data/bol.svg
+
+    Name:Bonaire, Sint Eustatius and Saba, 
+    Capital:Kralendijk,
+    FlagLink:https://restcountries.eu/data/bes.svg
+
+    Name:Bosnia and Herzegovina, 
+    Capital:Sarajevo,
+    FlagLink:https://restcountries.eu/data/bih.svg
+
+    Name:Botswana, 
+    Capital:Gaborone,
+    FlagLink:https://restcountries.eu/data/bwa.svg
+
+    Name:Bouvet Island, 
+    Capital:,
+    FlagLink:https://restcountries.eu/data/bvt.svg
+
+    Name:Brazil, 
+    Capital:Brasília,
+    FlagLink:https://restcountries.eu/data/bra.svg
+
+    Name:British Indian Ocean Territory, 
+    Capital:Diego Garcia,
+    FlagLink:https://restcountries.eu/data/iot.svg
+
+    Name:United States Minor Outlying Islands, 
+    Capital:,
+    FlagLink:https://restcountries.eu/data/umi.svg
+
+    Name:Virgin Islands (British), 
+    Capital:Road Town,
+    FlagLink:https://restcountries.eu/data/vgb.svg
+
+    Name:Virgin Islands (U.S.), 
+    Capital:Charlotte Amalie,
+    FlagLink:https://restcountries.eu/data/vir.svg
+
+    Name:Brunei Darussalam, 
+    Capital:Bandar Seri Begawan,
+    FlagLink:https://restcountries.eu/data/brn.svg
+
+    Name:Bulgaria, 
+    Capital:Sofia,
+    FlagLink:https://restcountries.eu/data/bgr.svg
+
+    Name:Burkina Faso, 
+    Capital:Ouagadougou,
+    FlagLink:https://restcountries.eu/data/bfa.svg
+
+    Name:Burundi, 
+    Capital:Bujumbura,
+    FlagLink:https://restcountries.eu/data/bdi.svg
+
+    Name:Cambodia, 
+    Capital:Phnom Penh,
+    FlagLink:https://restcountries.eu/data/khm.svg
+
+    Name:Cameroon, 
+    Capital:Yaoundé,
+    FlagLink:https://restcountries.eu/data/cmr.svg
+
+    Name:Canada, 
+    Capital:Ottawa,
+    FlagLink:https://restcountries.eu/data/can.svg
+
+    Name:Cabo Verde, 
+    Capital:Praia,
+    FlagLink:https://restcountries.eu/data/cpv.svg
+
+    Name:Cayman Islands, 
+    Capital:George Town,
+    FlagLink:https://restcountries.eu/data/cym.svg
+
+    Name:Central African Republic, 
+    Capital:Bangui,
+    FlagLink:https://restcountries.eu/data/caf.svg
+
+    Name:Chad, 
+    Capital:N'Djamena,
+    FlagLink:https://restcountries.eu/data/tcd.svg
+
+    Name:Chile, 
+    Capital:Santiago,
+    FlagLink:https://restcountries.eu/data/chl.svg
+
+    Name:China, 
+    Capital:Beijing,
+    FlagLink:https://restcountries.eu/data/chn.svg
+
+    Name:Christmas Island, 
+    Capital:Flying Fish Cove,
+    FlagLink:https://restcountries.eu/data/cxr.svg
+
+    Name:Cocos (Keeling) Islands, 
+    Capital:West Island,
+    FlagLink:https://restcountries.eu/data/cck.svg
+
+    Name:Colombia, 
+    Capital:Bogotá,
+    FlagLink:https://restcountries.eu/data/col.svg
+
+    Name:Comoros, 
+    Capital:Moroni,
+    FlagLink:https://restcountries.eu/data/com.svg
+
+    Name:Congo, 
+    Capital:Brazzaville,
+    FlagLink:https://restcountries.eu/data/cog.svg
+
+    Name:Congo (Democratic Republic of the), 
+    Capital:Kinshasa,
+    FlagLink:https://restcountries.eu/data/cod.svg
+
+    Name:Cook Islands, 
+    Capital:Avarua,
+    FlagLink:https://restcountries.eu/data/cok.svg
+
+    Name:Costa Rica, 
+    Capital:San José,
+    FlagLink:https://restcountries.eu/data/cri.svg
+
+    Name:Croatia, 
+    Capital:Zagreb,
+    FlagLink:https://restcountries.eu/data/hrv.svg
+
+    Name:Cuba, 
+    Capital:Havana,
+    FlagLink:https://restcountries.eu/data/cub.svg
+
+    Name:Curaçao, 
+    Capital:Willemstad,
+    FlagLink:https://restcountries.eu/data/cuw.svg
+
+    Name:Cyprus, 
+    Capital:Nicosia,
+    FlagLink:https://restcountries.eu/data/cyp.svg
+
+    Name:Czech Republic, 
+    Capital:Prague,
+    FlagLink:https://restcountries.eu/data/cze.svg
+
+    Name:Denmark, 
+    Capital:Copenhagen,
+    FlagLink:https://restcountries.eu/data/dnk.svg
+
+    Name:Djibouti, 
+    Capital:Djibouti,
+    FlagLink:https://restcountries.eu/data/dji.svg
+
+    Name:Dominica, 
+    Capital:Roseau,
+    FlagLink:https://restcountries.eu/data/dma.svg
+
+    Name:Dominican Republic, 
+    Capital:Santo Domingo,
+    FlagLink:https://restcountries.eu/data/dom.svg
+
+    Name:Ecuador, 
+    Capital:Quito,
+    FlagLink:https://restcountries.eu/data/ecu.svg
+
+    Name:Egypt, 
+    Capital:Cairo,
+    FlagLink:https://restcountries.eu/data/egy.svg
+
+    Name:El Salvador, 
+    Capital:San Salvador,
+    FlagLink:https://restcountries.eu/data/slv.svg
+
+    Name:Equatorial Guinea, 
+    Capital:Malabo,
+    FlagLink:https://restcountries.eu/data/gnq.svg
+
+    Name:Eritrea, 
+    Capital:Asmara,
+    FlagLink:https://restcountries.eu/data/eri.svg
+
+    Name:Estonia, 
+    Capital:Tallinn,
+    FlagLink:https://restcountries.eu/data/est.svg
+
+    Name:Ethiopia, 
+    Capital:Addis Ababa,
+    FlagLink:https://restcountries.eu/data/eth.svg
+
+    Name:Falkland Islands (Malvinas), 
+    Capital:Stanley,
+    FlagLink:https://restcountries.eu/data/flk.svg
+
+    Name:Faroe Islands, 
+    Capital:Tórshavn,
+    FlagLink:https://restcountries.eu/data/fro.svg
+
+    Name:Fiji, 
+    Capital:Suva,
+    FlagLink:https://restcountries.eu/data/fji.svg
+
+    Name:Finland, 
+    Capital:Helsinki,
+    FlagLink:https://restcountries.eu/data/fin.svg
+
+    Name:France, 
+    Capital:Paris,
+    FlagLink:https://restcountries.eu/data/fra.svg
+
+    Name:French Guiana, 
+    Capital:Cayenne,
+    FlagLink:https://restcountries.eu/data/guf.svg
+
+    Name:French Polynesia, 
+    Capital:Papeetē,
+    FlagLink:https://restcountries.eu/data/pyf.svg
+
+    Name:French Southern Territories, 
+    Capital:Port-aux-Français,
+    FlagLink:https://restcountries.eu/data/atf.svg
+
+    Name:Gabon, 
+    Capital:Libreville,
+    FlagLink:https://restcountries.eu/data/gab.svg
+
+    Name:Gambia, 
+    Capital:Banjul,
+    FlagLink:https://restcountries.eu/data/gmb.svg
+
+    Name:Georgia, 
+    Capital:Tbilisi,
+    FlagLink:https://restcountries.eu/data/geo.svg
+
+    Name:Germany, 
+    Capital:Berlin,
+    FlagLink:https://restcountries.eu/data/deu.svg
+
+    Name:Ghana, 
+    Capital:Accra,
+    FlagLink:https://restcountries.eu/data/gha.svg
+
+    Name:Gibraltar, 
+    Capital:Gibraltar,
+    FlagLink:https://restcountries.eu/data/gib.svg
+
+    Name:Greece, 
+    Capital:Athens,
+    FlagLink:https://restcountries.eu/data/grc.svg
+
+    Name:Greenland, 
+    Capital:Nuuk,
+    FlagLink:https://restcountries.eu/data/grl.svg
+
+    Name:Grenada, 
+    Capital:St. George's,
+    FlagLink:https://restcountries.eu/data/grd.svg
+
+    Name:Guadeloupe, 
+    Capital:Basse-Terre,
+    FlagLink:https://restcountries.eu/data/glp.svg
+
+    Name:Guam, 
+    Capital:Hagåtña,
+    FlagLink:https://restcountries.eu/data/gum.svg
+
+    Name:Guatemala, 
+    Capital:Guatemala City,
+    FlagLink:https://restcountries.eu/data/gtm.svg
+
+    Name:Guernsey, 
+    Capital:St. Peter Port,
+    FlagLink:https://restcountries.eu/data/ggy.svg
+
+    Name:Guinea, 
+    Capital:Conakry,
+    FlagLink:https://restcountries.eu/data/gin.svg
+
+    Name:Guinea-Bissau, 
+    Capital:Bissau,
+    FlagLink:https://restcountries.eu/data/gnb.svg
+
+    Name:Guyana, 
+    Capital:Georgetown,
+    FlagLink:https://restcountries.eu/data/guy.svg
+
+    Name:Haiti, 
+    Capital:Port-au-Prince,
+    FlagLink:https://restcountries.eu/data/hti.svg
+
+    Name:Heard Island and McDonald Islands, 
+    Capital:,
+    FlagLink:https://restcountries.eu/data/hmd.svg
+
+    Name:Holy See, 
+    Capital:Rome,
+    FlagLink:https://restcountries.eu/data/vat.svg
+
+    Name:Honduras, 
+    Capital:Tegucigalpa,
+    FlagLink:https://restcountries.eu/data/hnd.svg
+
+    Name:Hong Kong, 
+    Capital:City of Victoria,
+    FlagLink:https://restcountries.eu/data/hkg.svg
+
+    Name:Hungary, 
+    Capital:Budapest,
+    FlagLink:https://restcountries.eu/data/hun.svg
+
+    Name:Iceland, 
+    Capital:Reykjavík,
+    FlagLink:https://restcountries.eu/data/isl.svg
+
+    Name:India, 
+    Capital:New Delhi,
+    FlagLink:https://restcountries.eu/data/ind.svg
+
+    Name:Indonesia, 
+    Capital:Jakarta,
+    FlagLink:https://restcountries.eu/data/idn.svg
+
+    Name:Côte d'Ivoire, 
+    Capital:Yamoussoukro,
+    FlagLink:https://restcountries.eu/data/civ.svg
+
+    Name:Iran (Islamic Republic of), 
+    Capital:Tehran,
+    FlagLink:https://restcountries.eu/data/irn.svg
+
+    Name:Iraq, 
+    Capital:Baghdad,
+    FlagLink:https://restcountries.eu/data/irq.svg
+
+    Name:Ireland, 
+    Capital:Dublin,
+    FlagLink:https://restcountries.eu/data/irl.svg
+
+    Name:Isle of Man, 
+    Capital:Douglas,
+    FlagLink:https://restcountries.eu/data/imn.svg
+
+    Name:Israel, 
+    Capital:Jerusalem,
+    FlagLink:https://restcountries.eu/data/isr.svg
+
+    Name:Italy, 
+    Capital:Rome,
+    FlagLink:https://restcountries.eu/data/ita.svg
+
+    Name:Jamaica, 
+    Capital:Kingston,
+    FlagLink:https://restcountries.eu/data/jam.svg
+
+    Name:Japan, 
+    Capital:Tokyo,
+    FlagLink:https://restcountries.eu/data/jpn.svg
+
+    Name:Jersey, 
+    Capital:Saint Helier,
+    FlagLink:https://restcountries.eu/data/jey.svg
+
+    Name:Jordan, 
+    Capital:Amman,
+    FlagLink:https://restcountries.eu/data/jor.svg
+
+    Name:Kazakhstan, 
+    Capital:Astana,
+    FlagLink:https://restcountries.eu/data/kaz.svg
+
+    Name:Kenya, 
+    Capital:Nairobi,
+    FlagLink:https://restcountries.eu/data/ken.svg
+
+    Name:Kiribati, 
+    Capital:South Tarawa,
+    FlagLink:https://restcountries.eu/data/kir.svg
+
+    Name:Kuwait, 
+    Capital:Kuwait City,
+    FlagLink:https://restcountries.eu/data/kwt.svg
+
+    Name:Kyrgyzstan, 
+    Capital:Bishkek,
+    FlagLink:https://restcountries.eu/data/kgz.svg
+
+    Name:Lao People's Democratic Republic, 
+    Capital:Vientiane,
+    FlagLink:https://restcountries.eu/data/lao.svg
+
+    Name:Latvia, 
+    Capital:Riga,
+    FlagLink:https://restcountries.eu/data/lva.svg
+
+    Name:Lebanon, 
+    Capital:Beirut,
+    FlagLink:https://restcountries.eu/data/lbn.svg
+
+    Name:Lesotho, 
+    Capital:Maseru,
+    FlagLink:https://restcountries.eu/data/lso.svg
+
+    Name:Liberia, 
+    Capital:Monrovia,
+    FlagLink:https://restcountries.eu/data/lbr.svg
+
+    Name:Libya, 
+    Capital:Tripoli,
+    FlagLink:https://restcountries.eu/data/lby.svg
+
+    Name:Liechtenstein, 
+    Capital:Vaduz,
+    FlagLink:https://restcountries.eu/data/lie.svg
+
+    Name:Lithuania, 
+    Capital:Vilnius,
+    FlagLink:https://restcountries.eu/data/ltu.svg
+
+    Name:Luxembourg, 
+    Capital:Luxembourg,
+    FlagLink:https://restcountries.eu/data/lux.svg
+
+    Name:Macao, 
+    Capital:,
+    FlagLink:https://restcountries.eu/data/mac.svg
+
+    Name:Macedonia (the former Yugoslav Republic of), 
+    Capital:Skopje,
+    FlagLink:https://restcountries.eu/data/mkd.svg
+
+    Name:Madagascar, 
+    Capital:Antananarivo,
+    FlagLink:https://restcountries.eu/data/mdg.svg
+
+    Name:Malawi, 
+    Capital:Lilongwe,
+    FlagLink:https://restcountries.eu/data/mwi.svg
+
+    Name:Malaysia, 
+    Capital:Kuala Lumpur,
+    FlagLink:https://restcountries.eu/data/mys.svg
+
+    Name:Maldives, 
+    Capital:Malé,
+    FlagLink:https://restcountries.eu/data/mdv.svg
+
+    Name:Mali, 
+    Capital:Bamako,
+    FlagLink:https://restcountries.eu/data/mli.svg
+
+    Name:Malta, 
+    Capital:Valletta,
+    FlagLink:https://restcountries.eu/data/mlt.svg
+
+    Name:Marshall Islands, 
+    Capital:Majuro,
+    FlagLink:https://restcountries.eu/data/mhl.svg
+
+    Name:Martinique, 
+    Capital:Fort-de-France,
+    FlagLink:https://restcountries.eu/data/mtq.svg
+
+    Name:Mauritania, 
+    Capital:Nouakchott,
+    FlagLink:https://restcountries.eu/data/mrt.svg
+
+    Name:Mauritius, 
+    Capital:Port Louis,
+    FlagLink:https://restcountries.eu/data/mus.svg
+
+    Name:Mayotte, 
+    Capital:Mamoudzou,
+    FlagLink:https://restcountries.eu/data/myt.svg
+
+    Name:Mexico, 
+    Capital:Mexico City,
+    FlagLink:https://restcountries.eu/data/mex.svg
+
+    Name:Micronesia (Federated States of), 
+    Capital:Palikir,
+    FlagLink:https://restcountries.eu/data/fsm.svg
+
+    Name:Moldova (Republic of), 
+    Capital:Chișinău,
+    FlagLink:https://restcountries.eu/data/mda.svg
+
+    Name:Monaco, 
+    Capital:Monaco,
+    FlagLink:https://restcountries.eu/data/mco.svg
+
+    Name:Mongolia, 
+    Capital:Ulan Bator,
+    FlagLink:https://restcountries.eu/data/mng.svg
+
+    Name:Montenegro, 
+    Capital:Podgorica,
+    FlagLink:https://restcountries.eu/data/mne.svg
+
+    Name:Montserrat, 
+    Capital:Plymouth,
+    FlagLink:https://restcountries.eu/data/msr.svg
+
+    Name:Morocco, 
+    Capital:Rabat,
+    FlagLink:https://restcountries.eu/data/mar.svg
+
+    Name:Mozambique, 
+    Capital:Maputo,
+    FlagLink:https://restcountries.eu/data/moz.svg
+
+    Name:Myanmar, 
+    Capital:Naypyidaw,
+    FlagLink:https://restcountries.eu/data/mmr.svg
+
+    Name:Namibia, 
+    Capital:Windhoek,
+    FlagLink:https://restcountries.eu/data/nam.svg
+
+    Name:Nauru, 
+    Capital:Yaren,
+    FlagLink:https://restcountries.eu/data/nru.svg
+
+    Name:Nepal, 
+    Capital:Kathmandu,
+    FlagLink:https://restcountries.eu/data/npl.svg
+
+    Name:Netherlands, 
+    Capital:Amsterdam,
+    FlagLink:https://restcountries.eu/data/nld.svg
+
+    Name:New Caledonia, 
+    Capital:Nouméa,
+    FlagLink:https://restcountries.eu/data/ncl.svg
+
+    Name:New Zealand, 
+    Capital:Wellington,
+    FlagLink:https://restcountries.eu/data/nzl.svg
+
+    Name:Nicaragua, 
+    Capital:Managua,
+    FlagLink:https://restcountries.eu/data/nic.svg
+
+    Name:Niger, 
+    Capital:Niamey,
+    FlagLink:https://restcountries.eu/data/ner.svg
+
+    Name:Nigeria, 
+    Capital:Abuja,
+    FlagLink:https://restcountries.eu/data/nga.svg
+
+    Name:Niue, 
+    Capital:Alofi,
+    FlagLink:https://restcountries.eu/data/niu.svg
+
+    Name:Norfolk Island, 
+    Capital:Kingston,
+    FlagLink:https://restcountries.eu/data/nfk.svg
+
+    Name:Korea (Democratic People's Republic of), 
+    Capital:Pyongyang,
+    FlagLink:https://restcountries.eu/data/prk.svg
+
+    Name:Northern Mariana Islands, 
+    Capital:Saipan,
+    FlagLink:https://restcountries.eu/data/mnp.svg
+
+    Name:Norway, 
+    Capital:Oslo,
+    FlagLink:https://restcountries.eu/data/nor.svg
+
+    Name:Oman, 
+    Capital:Muscat,
+    FlagLink:https://restcountries.eu/data/omn.svg
+
+    Name:Pakistan, 
+    Capital:Islamabad,
+    FlagLink:https://restcountries.eu/data/pak.svg
+
+    Name:Palau, 
+    Capital:Ngerulmud,
+    FlagLink:https://restcountries.eu/data/plw.svg
+
+    Name:Palestine, State of, 
+    Capital:Ramallah,
+    FlagLink:https://restcountries.eu/data/pse.svg
+
+    Name:Panama, 
+    Capital:Panama City,
+    FlagLink:https://restcountries.eu/data/pan.svg
+
+    Name:Papua New Guinea, 
+    Capital:Port Moresby,
+    FlagLink:https://restcountries.eu/data/png.svg
+
+    Name:Paraguay, 
+    Capital:Asunción,
+    FlagLink:https://restcountries.eu/data/pry.svg
+
+    Name:Peru, 
+    Capital:Lima,
+    FlagLink:https://restcountries.eu/data/per.svg
+
+    Name:Philippines, 
+    Capital:Manila,
+    FlagLink:https://restcountries.eu/data/phl.svg
+
+    Name:Pitcairn, 
+    Capital:Adamstown,
+    FlagLink:https://restcountries.eu/data/pcn.svg
+
+    Name:Poland, 
+    Capital:Warsaw,
+    FlagLink:https://restcountries.eu/data/pol.svg
+
+    Name:Portugal, 
+    Capital:Lisbon,
+    FlagLink:https://restcountries.eu/data/prt.svg
+
+    Name:Puerto Rico, 
+    Capital:San Juan,
+    FlagLink:https://restcountries.eu/data/pri.svg
+
+    Name:Qatar, 
+    Capital:Doha,
+    FlagLink:https://restcountries.eu/data/qat.svg
+
+    Name:Republic of Kosovo, 
+    Capital:Pristina,
+    FlagLink:https://restcountries.eu/data/kos.svg
+
+    Name:Réunion, 
+    Capital:Saint-Denis,
+    FlagLink:https://restcountries.eu/data/reu.svg
+
+    Name:Romania, 
+    Capital:Bucharest,
+    FlagLink:https://restcountries.eu/data/rou.svg
+
+    Name:Russian Federation, 
+    Capital:Moscow,
+    FlagLink:https://restcountries.eu/data/rus.svg
+
+    Name:Rwanda, 
+    Capital:Kigali,
+    FlagLink:https://restcountries.eu/data/rwa.svg
+
+    Name:Saint Barthélemy, 
+    Capital:Gustavia,
+    FlagLink:https://restcountries.eu/data/blm.svg
+
+    Name:Saint Helena, Ascension and Tristan da Cunha, 
+    Capital:Jamestown,
+    FlagLink:https://restcountries.eu/data/shn.svg
+
+    Name:Saint Kitts and Nevis, 
+    Capital:Basseterre,
+    FlagLink:https://restcountries.eu/data/kna.svg
+
+    Name:Saint Lucia, 
+    Capital:Castries,
+    FlagLink:https://restcountries.eu/data/lca.svg
+
+    Name:Saint Martin (French part), 
+    Capital:Marigot,
+    FlagLink:https://restcountries.eu/data/maf.svg
+
+    Name:Saint Pierre and Miquelon, 
+    Capital:Saint-Pierre,
+    FlagLink:https://restcountries.eu/data/spm.svg
+
+    Name:Saint Vincent and the Grenadines, 
+    Capital:Kingstown,
+    FlagLink:https://restcountries.eu/data/vct.svg
+
+    Name:Samoa, 
+    Capital:Apia,
+    FlagLink:https://restcountries.eu/data/wsm.svg
+
+    Name:San Marino, 
+    Capital:City of San Marino,
+    FlagLink:https://restcountries.eu/data/smr.svg
+
+    Name:Sao Tome and Principe, 
+    Capital:São Tomé,
+    FlagLink:https://restcountries.eu/data/stp.svg
+
+    Name:Saudi Arabia, 
+    Capital:Riyadh,
+    FlagLink:https://restcountries.eu/data/sau.svg
+
+    Name:Senegal, 
+    Capital:Dakar,
+    FlagLink:https://restcountries.eu/data/sen.svg
+
+    Name:Serbia, 
+    Capital:Belgrade,
+    FlagLink:https://restcountries.eu/data/srb.svg
+
+    Name:Seychelles, 
+    Capital:Victoria,
+    FlagLink:https://restcountries.eu/data/syc.svg
+
+    Name:Sierra Leone, 
+    Capital:Freetown,
+    FlagLink:https://restcountries.eu/data/sle.svg
+
+    Name:Singapore, 
+    Capital:Singapore,
+    FlagLink:https://restcountries.eu/data/sgp.svg
+
+    Name:Sint Maarten (Dutch part), 
+    Capital:Philipsburg,
+    FlagLink:https://restcountries.eu/data/sxm.svg
+
+    Name:Slovakia, 
+    Capital:Bratislava,
+    FlagLink:https://restcountries.eu/data/svk.svg
+
+    Name:Slovenia, 
+    Capital:Ljubljana,
+    FlagLink:https://restcountries.eu/data/svn.svg
+
+    Name:Solomon Islands, 
+    Capital:Honiara,
+    FlagLink:https://restcountries.eu/data/slb.svg
+
+    Name:Somalia, 
+    Capital:Mogadishu,
+    FlagLink:https://restcountries.eu/data/som.svg
+
+    Name:South Africa, 
+    Capital:Pretoria,
+    FlagLink:https://restcountries.eu/data/zaf.svg
+
+    Name:South Georgia and the South Sandwich Islands, 
+    Capital:King Edward Point,
+    FlagLink:https://restcountries.eu/data/sgs.svg
+
+    Name:Korea (Republic of), 
+    Capital:Seoul,
+    FlagLink:https://restcountries.eu/data/kor.svg
+
+    Name:South Sudan, 
+    Capital:Juba,
+    FlagLink:https://restcountries.eu/data/ssd.svg
+
+    Name:Spain, 
+    Capital:Madrid,
+    FlagLink:https://restcountries.eu/data/esp.svg
+
+    Name:Sri Lanka, 
+    Capital:Colombo,
+    FlagLink:https://restcountries.eu/data/lka.svg
+
+    Name:Sudan, 
+    Capital:Khartoum,
+    FlagLink:https://restcountries.eu/data/sdn.svg
+
+    Name:Suriname, 
+    Capital:Paramaribo,
+    FlagLink:https://restcountries.eu/data/sur.svg
+
+    Name:Svalbard and Jan Mayen, 
+    Capital:Longyearbyen,
+    FlagLink:https://restcountries.eu/data/sjm.svg
+
+    Name:Swaziland, 
+    Capital:Lobamba,
+    FlagLink:https://restcountries.eu/data/swz.svg
+
+    Name:Sweden, 
+    Capital:Stockholm,
+    FlagLink:https://restcountries.eu/data/swe.svg
+
+    Name:Switzerland, 
+    Capital:Bern,
+    FlagLink:https://restcountries.eu/data/che.svg
+
+    Name:Syrian Arab Republic, 
+    Capital:Damascus,
+    FlagLink:https://restcountries.eu/data/syr.svg
+
+    Name:Taiwan, 
+    Capital:Taipei,
+    FlagLink:https://restcountries.eu/data/twn.svg
+
+    Name:Tajikistan, 
+    Capital:Dushanbe,
+    FlagLink:https://restcountries.eu/data/tjk.svg
+
+    Name:Tanzania, United Republic of, 
+    Capital:Dodoma,
+    FlagLink:https://restcountries.eu/data/tza.svg
+
+    Name:Thailand, 
+    Capital:Bangkok,
+    FlagLink:https://restcountries.eu/data/tha.svg
+
+    Name:Timor-Leste, 
+    Capital:Dili,
+    FlagLink:https://restcountries.eu/data/tls.svg
+
+    Name:Togo, 
+    Capital:Lomé,
+    FlagLink:https://restcountries.eu/data/tgo.svg
+
+    Name:Tokelau, 
+    Capital:Fakaofo,
+    FlagLink:https://restcountries.eu/data/tkl.svg
+
+    Name:Tonga, 
+    Capital:Nuku'alofa,
+    FlagLink:https://restcountries.eu/data/ton.svg
+
+    Name:Trinidad and Tobago, 
+    Capital:Port of Spain,
+    FlagLink:https://restcountries.eu/data/tto.svg
+
+    Name:Tunisia, 
+    Capital:Tunis,
+    FlagLink:https://restcountries.eu/data/tun.svg
+
+    Name:Turkey, 
+    Capital:Ankara,
+    FlagLink:https://restcountries.eu/data/tur.svg
+
+    Name:Turkmenistan, 
+    Capital:Ashgabat,
+    FlagLink:https://restcountries.eu/data/tkm.svg
+
+    Name:Turks and Caicos Islands, 
+    Capital:Cockburn Town,
+    FlagLink:https://restcountries.eu/data/tca.svg
+
+    Name:Tuvalu, 
+    Capital:Funafuti,
+    FlagLink:https://restcountries.eu/data/tuv.svg
+
+    Name:Uganda, 
+    Capital:Kampala,
+    FlagLink:https://restcountries.eu/data/uga.svg
+
+    Name:Ukraine, 
+    Capital:Kiev,
+    FlagLink:https://restcountries.eu/data/ukr.svg
+
+    Name:United Arab Emirates, 
+    Capital:Abu Dhabi,
+    FlagLink:https://restcountries.eu/data/are.svg
+
+    Name:United Kingdom of Great Britain and Northern Ireland, 
+    Capital:London,
+    FlagLink:https://restcountries.eu/data/gbr.svg
+
+    Name:United States of America, 
+    Capital:Washington, D.C.,
+    FlagLink:https://restcountries.eu/data/usa.svg
+
+    Name:Uruguay, 
+    Capital:Montevideo,
+    FlagLink:https://restcountries.eu/data/ury.svg
+
+    Name:Uzbekistan, 
+    Capital:Tashkent,
+    FlagLink:https://restcountries.eu/data/uzb.svg
+
+    Name:Vanuatu, 
+    Capital:Port Vila,
+    FlagLink:https://restcountries.eu/data/vut.svg
+
+    Name:Venezuela (Bolivarian Republic of), 
+    Capital:Caracas,
+    FlagLink:https://restcountries.eu/data/ven.svg
+
+    Name:Viet Nam, 
+    Capital:Hanoi,
+    FlagLink:https://restcountries.eu/data/vnm.svg
+
+    Name:Wallis and Futuna, 
+    Capital:Mata-Utu,
+    FlagLink:https://restcountries.eu/data/wlf.svg
+
+    Name:Western Sahara, 
+    Capital:El Aaiún,
+    FlagLink:https://restcountries.eu/data/esh.svg
+
+    Name:Yemen, 
+    Capital:Sana'a,
+    FlagLink:https://restcountries.eu/data/yem.svg
+
+    Name:Zambia, 
+    Capital:Lusaka,
+    FlagLink:https://restcountries.eu/data/zmb.svg
+
+    Name:Zimbabwe, 
+    Capital:Harare,
+    FlagLink:https://restcountries.eu/data/zwe.svg
